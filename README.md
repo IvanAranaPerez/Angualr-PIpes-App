@@ -2,6 +2,24 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.
 
+## PrimeNG 
+
+This project was created including the primeNG styles library in order to create a friendly grafic user interface.
+
+Run `npm install primeng` to install the primeNG library.
+
+Then include the following css files in the angular.json file.
+
+```
+...
+"styles": [
+    "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
+    "node_modules/primeng/resources/primeng.min.css",
+    ...
+]
+
+```
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
